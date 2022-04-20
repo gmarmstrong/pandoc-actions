@@ -3,11 +3,7 @@
 [![Pandoc CI](https://github.com/gmarmstrong/pandoc-artifact/actions/workflows/main.yml/badge.svg)](https://github.com/gmarmstrong/pandoc-artifact/actions/workflows/main.yml)
 [![GitHub](https://img.shields.io/github/license/gmarmstrong/pandoc-actions?color=informational)](LICENSE)
 
-⚠ Brand new project, not yet stable. Check back later, or feel free to contribute!
-
-GitHub Action to run [pandoc](https://pandoc.org/) tasks and create build artifacts from them.
-
-The demo gives an example workflow of converting a simple Pandoc Markdown file, `docs/SLIDES.md`, to an interactive [reveal.js](https://revealjs.com/) slideshow presentation. The output HTML file is then uploaded to the GitHub repository as a build artifact, which is available for [download through the GitHub repository](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts) (through the web browser, CLI, [or even another Action](https://github.com/actions/download-artifact)) _without_ having to commit the build artifact to source.
+This project demonstrates a example workflow using [pandoc](https://pandoc.org/) to convert a Markdown file, `docs/SLIDES.md`, into an interactive [reveal.js](https://revealjs.com/) slideshow presentation. The output HTML file is then uploaded to the GitHub repository as a build artifact, which is available for [download through the GitHub repository](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts) (through the web browser, CLI, [or even another Action](https://github.com/actions/download-artifact)) _without_ having to commit the build artifact to source.
 
 ## Demo
 
