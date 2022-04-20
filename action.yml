@@ -1,0 +1,13 @@
+name: 'Build pandoc artifact'
+description: 'This action will create a build artifact from a pandoc task.'
+author: 'Guthrie McAfee Armstrong <git@gmarmstrong.dev>'
+inputs:
+  pandoc-version:
+    description: 'Pandoc version (e.g., "2.18")'
+    required: true
+  pandoc-command:
+    description: 'Pandoc command (e.g., "pandoc -t html -s example.md -o example.html")'
+    required: true
+outputs:
+  exit-status:
+    description: 'Indicates if the task passed or failed. Possible outputs: success|failed|skipped'
