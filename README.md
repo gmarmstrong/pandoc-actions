@@ -1,4 +1,4 @@
-# _pandoc-actions_
+# _pandoc-artifact_
 
 [![Pandoc CI](https://github.com/gmarmstrong/pandoc-actions/actions/workflows/main.yml/badge.svg)](https://github.com/gmarmstrong/pandoc-actions/actions/workflows/main.yml)
 [![GitHub](https://img.shields.io/github/license/gmarmstrong/pandoc-actions?color=informational)](LICENSE)
