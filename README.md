@@ -4,8 +4,8 @@ This workflow demonstrates a GitHub Action which uses [pandoc](https://pandoc.or
 
 ## Demo
 
-<a href="https://github.com/gmarmstrong/pandoc-actions/actions/runs/2192821405"><img src="https://i.imgur.com/yt2zEJ1.png" alt="Screenshot of a demo build result and the resulting link to the build artifact, SLIDES.html" height="280"/></a>
-<img src="https://i.imgur.com/OCxousD.gif" alt="Short screen recording of a demo slideshow" height="280"/>
+<a href="https://github.com/gmarmstrong/pandoc-actions/actions/runs/2192821405"><img src="https://i.imgur.com/yt2zEJ1.png" alt="Screenshot of a demo build result and the resulting link to the build artifact, SLIDES.html"/></a>
+<img src="https://i.imgur.com/OCxousD.gif" alt="Short screen recording of a demo slideshow"/>
 
 ## Known limitations
 
