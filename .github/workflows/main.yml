@@ -14,7 +14,7 @@ jobs: # A workflow run is made up of one or more jobs that can run sequentially 
           sudo dpkg -i pandoc-2.18-1-amd64.deb  # install an official pandoc release (update version as appropriate)
       - name: Build slides
         # Specifying revealjs-url fixes a bug in which pandoc would generate incorrect paths to revealjs scripts.
-        # Bug be resolved in the future. Pin a specific revealjs version for additional security if desired.
+        # Bug may be resolved in the future.
         run: |
           pandoc -t revealjs -V revealjs-url=https://unpkg.com/reveal.js@4.3.1 -s demo/SLIDES.md -o demo/SLIDES.html
       - name: Upload a Build Artifact
